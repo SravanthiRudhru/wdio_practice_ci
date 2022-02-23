@@ -1,0 +1,134 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645199932229' stop='1645199938748'>
+    <name>Verify text present in herokuapp app using Chai assertions</name>
+    <title>Verify text present in herokuapp app using Chai assertions</title>
+    <test-cases>
+        <test-case start='1645199932229' status='broken' stop='1645199938748'>
+            <name>Verify text present- in herokuapp page.</name>
+            <title>Verify text present- in herokuapp page.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+            </parameters>
+            <steps>
+                <step start='1645199932229' status='passed' stop='1645199932660'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='41e38f72-6076-4734-8a22-437477b2cc5e-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1645199932660' status='passed' stop='1645199932674'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9d363a91-5356-4122-af31-c70b25edcca3-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='ace10455-87bb-4caf-874e-7744976d7ad8-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1645199932678' status='passed' stop='1645199932694'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='b2d137f2-e754-4fbb-b96c-4b375fd3f508-attachment.json' type='application/json' size='8337'/>
+                        <attachment title='Response' source='b98a8872-97b1-4dd0-a403-0f67c66f3b2a-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1645199932694' status='passed' stop='1645199932716'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='0d600583-9076-49da-9dc8-cc0e03c5006c-attachment.json' type='application/json' size='5649'/>
+                        <attachment title='Response' source='64af8128-c956-422a-9a87-af5f45106e58-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1645199932717' status='passed' stop='1645199932804'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='07f53c15-bb2b-4f7e-ba25-bc9f657416de-attachment.json' type='application/json' size='74'/>
+                    </attachments>
+                    <steps>
+                        <step start='1645199932723' status='passed' stop='1645199932739'>
+                            <name>POST /session/:sessionId/element/1ee4f97b-5226-48c5-bd27-9804a7a9f98f/click</name>
+                            <title>POST /session/:sessionId/element/1ee4f97b-5226-48c5-bd27-9804a7a9f98f/click</title>
+                            <attachments>
+                                <attachment title='Response' source='56a8bfde-9c41-45a0-9fce-a16ffefacbe8-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1645199932743' status='passed' stop='1645199932798'>
+                            <name>POST /session/:sessionId/execute/sync</name>
+                            <title>POST /session/:sessionId/execute/sync</title>
+                            <attachments>
+                                <attachment title='Request' source='40202c70-835d-4fef-b527-e2c058930ef9-attachment.json' type='application/json' size='8337'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1645199933743' status='passed' stop='1645199933764'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='7f1e8f90-1655-486a-846b-ca8cd8648484-attachment.json' type='application/json' size='8337'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1645199934758' status='passed' stop='1645199934772'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='eeb02453-bb91-4cf5-ab33-9d4434dab570-attachment.json' type='application/json' size='8337'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1645199935748' status='passed' stop='1645199935764'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='6206a84a-e876-4ad8-b719-ceaa74a638cd-attachment.json' type='application/json' size='8337'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1645199936745' status='passed' stop='1645199936756'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='1023d712-8bee-4541-a6e5-ae75ee09efe8-attachment.json' type='application/json' size='8337'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1645199937748' status='passed' stop='1645199937758'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='b393c850-9f8d-41c9-b5dc-f18647623955-attachment.json' type='application/json' size='8337'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>text is not displayed even after timeout</message>
+                <stack-trace>Error: text is not displayed even after timeout
+                    at C:\Users\Sravanthi_Rudhru\OneDrive - EPAM\Desktop\Learn\WDIO_Practice\wdio_practice\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at async Element.wrapCommandFn (C:\Users\Sravanthi_Rudhru\OneDrive - EPAM\Desktop\Learn\WDIO_Practice\wdio_practice\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\Sravanthi_Rudhru\OneDrive - EPAM\Desktop\Learn\WDIO_Practice\wdio_practice\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\Sravanthi_Rudhru\OneDrive - EPAM\Desktop\Learn\WDIO_Practice\wdio_practice\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\Users\Sravanthi_Rudhru\OneDrive - EPAM\Desktop\Learn\WDIO_Practice\wdio_practice\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\Sravanthi_Rudhru\OneDrive - EPAM\Desktop\Learn\WDIO_Practice\wdio_practice\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\Sravanthi_Rudhru\OneDrive - EPAM\Desktop\Learn\WDIO_Practice\wdio_practice\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\Sravanthi_Rudhru\OneDrive - EPAM\Desktop\Learn\WDIO_Practice\wdio_practice\test\specs\hometask_02.spec.js:52:8)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,366 @@
+{
+  "uid" : "36c0bd6b48593987",
+  "name" : "Verify text present- in herokuapp page.",
+  "fullName" : "Verify text present in herokuapp app using Chai assertions.Verify text present- in herokuapp page.",
+  "historyId" : "86c23c3516d3093ed3c8692dcf5f4c95",
+  "time" : {
+    "start" : 1645199389445,
+    "stop" : 1645199395893,
+    "duration" : 6448
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "text is not displayed even after function (ms) {\n                  if (!arguments.length) {\n                    return this.runnable().timeout();\n                  }\n                  this.runnable().timeout(ms);\n                  return this;\n                } ms",
+  "statusTrace" : "Error: text is not displayed even after function (ms) {\n                  if (!arguments.length) {\n                    return this.runnable().timeout();\n                  }\n                  this.runnable().timeout(ms);\n                  return this;\n                } ms\n                    at C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at async Element.wrapCommandFn (C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Context.<anonymous> (C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\test\\specs\\hometask_02.spec.js:52:8)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "text is not displayed even after function (ms) {\n                  if (!arguments.length) {\n                    return this.runnable().timeout();\n                  }\n                  this.runnable().timeout(ms);\n                  return this;\n                } ms",
+    "statusTrace" : "Error: text is not displayed even after function (ms) {\n                  if (!arguments.length) {\n                    return this.runnable().timeout();\n                  }\n                  this.runnable().timeout(ms);\n                  return this;\n                } ms\n                    at C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at async Element.wrapCommandFn (C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Context.<anonymous> (C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\test\\specs\\hometask_02.spec.js:52:8)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1645199389446,
+        "stop" : 1645199389800,
+        "duration" : 354
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e504d30ba5f4033",
+        "name" : "Request",
+        "source" : "3e504d30ba5f4033.json",
+        "type" : "application/json",
+        "size" : 67
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1645199389800,
+        "stop" : 1645199389811,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "35a52e2fcce6a3e2",
+        "name" : "Request",
+        "source" : "35a52e2fcce6a3e2.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "829ff1259d6e0ead",
+        "name" : "Response",
+        "source" : "829ff1259d6e0ead.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1645199389813,
+        "stop" : 1645199389827,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1de9d26b2d4119af",
+        "name" : "Request",
+        "source" : "1de9d26b2d4119af.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "1bac0122d2a497",
+        "name" : "Response",
+        "source" : "1bac0122d2a497.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1645199389827,
+        "stop" : 1645199389845,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "91f87928fd3d3079",
+        "name" : "Request",
+        "source" : "91f87928fd3d3079.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "a2484060e86e80de",
+        "name" : "Response",
+        "source" : "a2484060e86e80de.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1645199389845,
+        "stop" : 1645199389923,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element/0401476a-ba14-469c-af63-0b9f2ea0bcd3/click",
+        "time" : {
+          "start" : 1645199389850,
+          "stop" : 1645199389863,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5ee50af56830ccb",
+          "name" : "Response",
+          "source" : "5ee50af56830ccb.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1645199389867,
+          "stop" : 1645199389918,
+          "duration" : 51
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "97e7e7a1d892ab5a",
+          "name" : "Request",
+          "source" : "97e7e7a1d892ab5a.json",
+          "type" : "application/json",
+          "size" : 8337
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "55b8c449f597738f",
+        "name" : "Request",
+        "source" : "55b8c449f597738f.json",
+        "type" : "application/json",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1645199390871,
+        "stop" : 1645199390896,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "94aaa6f88d0d1518",
+        "name" : "Request",
+        "source" : "94aaa6f88d0d1518.json",
+        "type" : "application/json",
+        "size" : 8337
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1645199391882,
+        "stop" : 1645199391896,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a9e8cd3821afd8db",
+        "name" : "Request",
+        "source" : "a9e8cd3821afd8db.json",
+        "type" : "application/json",
+        "size" : 8337
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1645199392871,
+        "stop" : 1645199392881,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b5caaf17cf98b2bb",
+        "name" : "Request",
+        "source" : "b5caaf17cf98b2bb.json",
+        "type" : "application/json",
+        "size" : 8337
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1645199393875,
+        "stop" : 1645199393905,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4ca0197d382a1442",
+        "name" : "Request",
+        "source" : "4ca0197d382a1442.json",
+        "type" : "application/json",
+        "size" : 8337
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1645199394872,
+        "stop" : 1645199394894,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "55a5550253c659ea",
+        "name" : "Request",
+        "source" : "55a5550253c659ea.json",
+        "type" : "application/json",
+        "size" : 8337
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1645199395869,
+        "stop" : 1645199395893,
+        "duration" : 24
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: text is not displayed even after function (ms) {\n                  if (!arguments.length) {\n                    return this.runnable().timeout();\n                  }\n                  this.runnable().timeout(ms);\n                  return this;\n                } ms\n                    at C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at async Element.wrapCommandFn (C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Context.<anonymous> (C:\\Users\\Sravanthi_Rudhru\\OneDrive - EPAM\\Desktop\\Learn\\WDIO_Practice\\wdio_practice\\test\\specs\\hometask_02.spec.js:52:8)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "88658352fb314735",
+        "name" : "Request",
+        "source" : "88658352fb314735.json",
+        "type" : "application/json",
+        "size" : 8337
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 13,
+    "attachmentsCount" : 16,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verify text present in herokuapp app using Chai assertions"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify text present in herokuapp app using Chai assertions"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify text present- in herokuapp page."
+  }, {
+    "name" : "package",
+    "value" : "Verify text present in herokuapp app using Chai assertions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "36c0bd6b48593987.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

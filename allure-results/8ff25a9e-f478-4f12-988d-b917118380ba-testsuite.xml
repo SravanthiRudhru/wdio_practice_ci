@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645199265146' stop='1645199265812'>
+    <name>Verify text present in herokuapp app using Chai assertions</name>
+    <title>Verify text present in herokuapp app using Chai assertions</title>
+    <test-cases>
+        <test-case start='1645199265146' status='broken' stop='1645199265812'>
+            <name>Verify text present- in herokuapp page.</name>
+            <title>Verify text present- in herokuapp page.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+            </parameters>
+            <steps>
+                <step start='1645199265149' status='passed' stop='1645199265795'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='182ec736-4767-484b-9b51-8553ba811bc5-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1645199265795' status='passed' stop='1645199265809'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3903c19d-a69c-4593-b9a8-71870d144ce1-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='bb16743f-4e03-4ef4-bc66-a16eb6323235-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>timeout is not defined</message>
+                <stack-trace>ReferenceError: timeout is not defined
+                    at Context.&lt;anonymous> (C:\Users\Sravanthi_Rudhru\OneDrive - EPAM\Desktop\Learn\WDIO_Practice\wdio_practice\test\specs\hometask_02.spec.js:44:71)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

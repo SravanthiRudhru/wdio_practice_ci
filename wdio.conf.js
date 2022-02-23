@@ -1,3 +1,6 @@
+const allure = require('allure-commandline');
+//import allureReporter from '@wdio/allure-reporter';
+
 exports.config = {
     //
     // ====================
@@ -19,10 +22,18 @@ exports.config = {
     // If you are calling `wdio` from an NPM script (see https://docs.npmjs.com/cli/run-script),
     // then the current working directory is where your `package.json` resides, so `wdio`
     // will be called from there.
-    //
+    //T
+
+    //To Execute all test scripts
     specs: [
-        './test/specs/hometask_01.spec.js'
+        './test/specs/**/*.js'
     ],
+
+    //To Execute Test scripts grouped into suites:
+    suites: {
+        homeTask01:['./test/specs/hometask_01.spec.js'],
+        homeTask02:['./test/specs/hometask_02.spec.js']
+    },
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -57,11 +68,17 @@ exports.config = {
         maxInstances: 5,
         //
         browserName: 'chrome',
-        acceptInsecureCerts: true
+        'goog:chromeOptions':{
+            args:[
+                '--start-maximized'
+            ],
+            excludeSwitches: ['enable-automation']
+        },
+        acceptInsecureCerts: true,
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
-        // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
-        // excludeDriverLogs: ['bugreport', 'server'],
+        excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
+        excludeDriverLogs: ['bugreport', 'server'],
     }],
     //
     // ===================
@@ -70,7 +87,7 @@ exports.config = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'info',
+    logLevel: 'silent',
     //
     // Set specific log levels per logger
     // loggers:
@@ -132,9 +149,12 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec'],
-
-
+        // ...
+        reporters: [['allure', {
+            outputDir: 'allure-results',
+            // disableWebdriverStepsReporting: true,
+            // disableWebdriverScreenshotsReporting: true,
+        }],'spec'],
     
     //
     // Options to be passed to Mocha.
@@ -143,6 +163,37 @@ exports.config = {
         ui: 'bdd',
         timeout: 60000
     },
+
+
+    /**
+     * Gets executed after all workers got shut down and the process is about to exit. An error
+     * thrown in the onComplete hook will result in the test run failing.
+     * @param {Object} exitCode 0 - success, 1 - fail
+     * @param {Object} config wdio configuration object
+     * @param {Array.<Object>} capabilities list of capabilities details
+     * @param {<Object>} results object containing test results
+     */
+
+    //  onComplete: function() {
+    //     const reportError = new Error('Could not generate Allure report')
+    //     const generation = allure(['generate', 'allure-results', '--clean'])
+    //     return new Promise((resolve, reject) => {
+    //         const generationTimeout = setTimeout(
+    //             () => reject(reportError),
+    //             5000)
+
+    //         generation.on('exit', function(exitCode) {
+    //             clearTimeout(generationTimeout)
+
+    //             if (exitCode !== 0) {
+    //                 return reject(reportError)
+    //             }
+
+    //             console.log('Allure report successfully generated')
+    //             resolve()
+    //         })
+    //     })
+    // }
     //
     // =====
     // Hooks
@@ -264,16 +315,7 @@ exports.config = {
      */
     // afterSession: function (config, capabilities, specs) {
     // },
-    /**
-     * Gets executed after all workers got shut down and the process is about to exit. An error
-     * thrown in the onComplete hook will result in the test run failing.
-     * @param {Object} exitCode 0 - success, 1 - fail
-     * @param {Object} config wdio configuration object
-     * @param {Array.<Object>} capabilities list of capabilities details
-     * @param {<Object>} results object containing test results
-     */
-    // onComplete: function(exitCode, config, capabilities, results) {
-    // },
+    
     /**
     * Gets executed when a refresh happens.
     * @param {String} oldSessionId session ID of the old session

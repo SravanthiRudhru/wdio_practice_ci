@@ -1,0 +1,68 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Login functionality for herokuapp page.",
+    "children" : [ {
+      "name" : "Verify Login functionality for herokuapp page.",
+      "uid" : "86e9ef7071eac9cb",
+      "parentUid" : "d9359b2cad8de0d18233aacc78feb536",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645189699123,
+        "stop" : 1645189706814,
+        "duration" : 7691
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "d9359b2cad8de0d18233aacc78feb536"
+  }, {
+    "name" : "Verify text present in herokuapp app using JEST assertions",
+    "children" : [ {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "a47485a920076ea0",
+      "parentUid" : "d4d1c2fdbcacc61f7ff6a1e17646352b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645604653970,
+        "stop" : 1645604663217,
+        "duration" : 9247
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 17,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "d4d1c2fdbcacc61f7ff6a1e17646352b"
+  }, {
+    "name" : "Verify text present in herokuapp app using Chai assertions",
+    "children" : [ {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "7bb8c6cbfcc50ce",
+      "parentUid" : "93d890040c0c9f332b2cd946d134ba01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645604663242,
+        "stop" : 1645604669688,
+        "duration" : 6446
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 17,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "93d890040c0c9f332b2cd946d134ba01"
+  } ]
+}

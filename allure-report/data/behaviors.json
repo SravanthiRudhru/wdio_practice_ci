@@ -1,0 +1,56 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Verify Login functionality for herokuapp page.",
+    "uid" : "86e9ef7071eac9cb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645189699123,
+      "stop" : 1645189706814,
+      "duration" : 7691
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-98.0.4758.102" ]
+  }, {
+    "name" : "Verify text present- in herokuapp page.",
+    "uid" : "a47485a920076ea0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645604653970,
+      "stop" : 1645604663217,
+      "duration" : 9247
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 17,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-98.0.4758.102" ]
+  }, {
+    "name" : "Verify text present- in herokuapp page.",
+    "uid" : "7bb8c6cbfcc50ce",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645604663242,
+      "stop" : 1645604669688,
+      "duration" : 6446
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 17,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-98.0.4758.102" ]
+  } ]
+}

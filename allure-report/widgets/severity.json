@@ -1,0 +1,31 @@
+[ {
+  "uid" : "7bb8c6cbfcc50ce",
+  "name" : "Verify text present- in herokuapp page.",
+  "time" : {
+    "start" : 1645604663242,
+    "stop" : 1645604669688,
+    "duration" : 6446
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86e9ef7071eac9cb",
+  "name" : "Verify Login functionality for herokuapp page.",
+  "time" : {
+    "start" : 1645189699123,
+    "stop" : 1645189706814,
+    "duration" : 7691
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a47485a920076ea0",
+  "name" : "Verify text present- in herokuapp page.",
+  "time" : {
+    "start" : 1645604653970,
+    "stop" : 1645604663217,
+    "duration" : 9247
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
