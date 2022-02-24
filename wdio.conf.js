@@ -32,7 +32,8 @@ exports.config = {
     //To Execute Test scripts grouped into suites:
     suites: {
         homeTask01:['./test/specs/hometask_01.spec.js'],
-        homeTask02:['./test/specs/hometask_02.spec.js']
+        homeTask02:['./test/specs/hometask_02.spec.js'],
+        homeTask03:['./test/specs/hometask_03.spec.js']
     },
     // Patterns to exclude.
     exclude: [
@@ -65,7 +66,7 @@ exports.config = {
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
-        maxInstances: 5,
+        maxInstances: 1,
         //
         browserName: 'chrome',
         'goog:chromeOptions':{
@@ -127,7 +128,7 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['chromedriver'],
+    services: ['selenium-standalone'],
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber

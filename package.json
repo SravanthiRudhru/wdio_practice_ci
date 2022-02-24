@@ -7,6 +7,7 @@
         "@wdio/cli": "^7.16.15",
         "@wdio/local-runner": "^7.16.15",
         "@wdio/mocha-framework": "^7.16.15",
+        "@wdio/selenium-standalone-service": "^7.16.16",
         "@wdio/spec-reporter": "^7.16.14",
         "chromedriver": "^97.0.4",
         "wdio-chromedriver-service": "^7.2.8"
@@ -15,6 +16,7 @@
         "wdio": "wdio run wdio.conf.js",
         "smoke": "wdio run wdio.conf.js --suite homeTask01",
         "regression": "wdio run wdio.conf.js --suite homeTask02",
+        "pageObj": "wdio run wdio.conf.js --suite homeTask03",
         "report": "allure generate"
     },
     "dependencies": {

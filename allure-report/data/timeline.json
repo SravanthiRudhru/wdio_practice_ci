@@ -4,65 +4,31 @@
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
-      "name" : "Verify Login functionality for herokuapp page.",
-      "uid" : "86e9ef7071eac9cb",
+      "name" : "Verify saucedemo Login page is displayed",
+      "uid" : "60bb48971695e945",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1645189699123,
-        "stop" : 1645189706814,
-        "duration" : 7691
+        "start" : 1645684259140,
+        "stop" : 1645684260392,
+        "duration" : 1252
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 5,
+      "retriesCount" : 8,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-98.0.4758.102" ]
     }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "47e41161baf97ac0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645604406222,
-        "stop" : 1645604415523,
-        "duration" : 9301
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "96a962453728ac17",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645199991294,
-        "stop" : 1645199998023,
-        "duration" : 6729
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "6d5ec49b9d18c0fc",
+      "name" : "verify Item Price in Your Cart page.",
+      "uid" : "ba3db33f6f6ea56",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
-        "start" : 1645199254499,
-        "stop" : 1645199265119,
-        "duration" : 10620
+        "start" : 1645683199076,
+        "stop" : 1645683209121,
+        "duration" : 10045
       },
       "flaky" : false,
       "newFailed" : false,
@@ -73,296 +39,7 @@
       "parameters" : [ "chrome-98.0.4758.102" ]
     }, {
       "name" : "Verify text present- in herokuapp page.",
-      "uid" : "152a28d6cd04082e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645604521604,
-        "stop" : 1645604532925,
-        "duration" : 11321
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "711c3fea9b999c01",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645604037097,
-        "stop" : 1645604043504,
-        "duration" : 6407
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify Login functionality for herokuapp page.",
-      "uid" : "a8ac5bb5c4a4c0d0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645188728880,
-        "stop" : 1645188736443,
-        "duration" : 7563
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "eb0093a0eb193809",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645604217216,
-        "stop" : 1645604223626,
-        "duration" : 6410
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "2b61606c645d14ab",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1645199981089,
-        "stop" : 1645199991283,
-        "duration" : 10194
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "4836e084e815a8fe",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1645199517972,
-        "stop" : 1645199524632,
-        "duration" : 6660
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "187e3a16359145a7",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645604207902,
-        "stop" : 1645604217188,
-        "duration" : 9286
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "d966aeb307e9ff0d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1645199378923,
-        "stop" : 1645199389425,
-        "duration" : 10502
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "f8ac7989163bf441",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1645199922346,
-        "stop" : 1645199932213,
-        "duration" : 9867
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "c83c4fe47a897bb0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645604532952,
-        "stop" : 1645604539818,
-        "duration" : 6866
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "67b398c3c75856a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1645199265146,
-        "stop" : 1645199265812,
-        "duration" : 666
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "654ebf3d7e0493ee",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645604306595,
-        "stop" : 1645604312975,
-        "duration" : 6380
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify Login functionality for herokuapp page.",
-      "uid" : "e50ae6ac86eb0760",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645189013697,
-        "stop" : 1645189022254,
-        "duration" : 8557
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "9dc507dae7e3aa96",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645200033298,
-        "stop" : 1645200043710,
-        "duration" : 10412
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "afed7a1e532b4a24",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645604364341,
-        "stop" : 1645604373574,
-        "duration" : 9233
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "81b36c8350d371cd",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1645604109664,
-        "stop" : 1645604169673,
-        "duration" : 60009
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "cf6323bcd087e640",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1645199932229,
-        "stop" : 1645199938748,
-        "duration" : 6519
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "e8eecd88c870e6b5",
+      "uid" : "7e4b59a3728e74b9",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
@@ -379,13 +56,13 @@
       "parameters" : [ "chrome-98.0.4758.102" ]
     }, {
       "name" : "Verify Login functionality for herokuapp page.",
-      "uid" : "e5ca55f03e547329",
+      "uid" : "7fdc35dda5ad4ff3",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1645188311282,
-        "stop" : 1645188319230,
-        "duration" : 7948
+        "start" : 1645188728880,
+        "stop" : 1645188736443,
+        "duration" : 7563
       },
       "flaky" : false,
       "newFailed" : false,
@@ -396,47 +73,30 @@
       "parameters" : [ "chrome-98.0.4758.102" ]
     }, {
       "name" : "Verify text present- in herokuapp page.",
-      "uid" : "d25680fb6b4fa9ff",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645604027996,
-        "stop" : 1645604037064,
-        "duration" : 9068
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "7bb8c6cbfcc50ce",
+      "uid" : "94ec30f7b58002e6",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1645604663242,
-        "stop" : 1645604669688,
-        "duration" : 6446
+        "start" : 1645604532952,
+        "stop" : 1645604539818,
+        "duration" : 6866
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 17,
-      "retriesStatusChange" : true,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
       "parameters" : [ "chrome-98.0.4758.102" ]
     }, {
-      "name" : "Verify Login functionality for herokuapp page.",
-      "uid" : "8d57abf2eaca9fdb",
+      "name" : "Click shopping Cart Icon and verify the page tile.",
+      "uid" : "81ae96b3546fa8f4",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1645189261847,
-        "stop" : 1645189270177,
-        "duration" : 8330
+        "start" : 1645683198890,
+        "stop" : 1645683199076,
+        "duration" : 186
       },
       "flaky" : false,
       "newFailed" : false,
@@ -447,143 +107,7 @@
       "parameters" : [ "chrome-98.0.4758.102" ]
     }, {
       "name" : "Verify text present- in herokuapp page.",
-      "uid" : "36c0bd6b48593987",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1645199389445,
-        "stop" : 1645199395893,
-        "duration" : 6448
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "4397286d2c31da71",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645604599394,
-        "stop" : 1645604608731,
-        "duration" : 9337
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "840c2e4c75cb65ed",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645604373598,
-        "stop" : 1645604379982,
-        "duration" : 6384
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "24324e9ea411106c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645603835705,
-        "stop" : 1645603842106,
-        "duration" : 6401
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "3fbf00a9fbe8f86b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1645199115946,
-        "stop" : 1645199116301,
-        "duration" : 355
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "dfb73cd4be26ed50",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645604608748,
-        "stop" : 1645604615180,
-        "duration" : 6432
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify Login functionality for herokuapp page.",
-      "uid" : "8a815df934e60aa5",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645188585633,
-        "stop" : 1645188593510,
-        "duration" : 7877
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "bc3f78dcd50f77e6",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1645599458783,
-        "stop" : 1645599468461,
-        "duration" : 9678
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "a47485a920076ea0",
+      "uid" : "674c0cef6d75aa0d",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -595,12 +119,46 @@
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 17,
-      "retriesStatusChange" : true,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Add Item to Cart and very Qty added in shopping Cart Icon",
+      "uid" : "7c8404b1df325ad7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645643642469,
+        "stop" : 1645643652598,
+        "duration" : 10129
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify saucedemo Login page is displayed",
+      "uid" : "de5f52ede9de3690",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645678936441,
+        "stop" : 1645678936986,
+        "duration" : 545
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
       "parameters" : [ "chrome-98.0.4758.102" ]
     }, {
       "name" : "Verify text present- in herokuapp page.",
-      "uid" : "d19ce9bc32df80ad",
+      "uid" : "e258a206c64118fa",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -616,14 +174,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-98.0.4758.102" ]
     }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "3a21162d1d31d376",
+      "name" : "Add Item to Cart and very Qty added in shopping Cart Icon",
+      "uid" : "743e965f9fe4539b",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1645200043736,
-        "stop" : 1645200050237,
-        "duration" : 6501
+        "start" : 1645678007394,
+        "stop" : 1645678007511,
+        "duration" : 117
       },
       "flaky" : false,
       "newFailed" : false,
@@ -633,14 +191,31 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-98.0.4758.102" ]
     }, {
-      "name" : "Verify text present- in herokuapp page.",
-      "uid" : "9e81cde9d20e3926",
+      "name" : "verify Item Price in Your Cart page.",
+      "uid" : "31d67bcb3b644fb1",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
-        "start" : 1645199508215,
-        "stop" : 1645199517950,
-        "duration" : 9735
+        "start" : 1645644016669,
+        "stop" : 1645644026703,
+        "duration" : 10034
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "verify Item Price in Your Cart page.",
+      "uid" : "ec739c2d1ad05b11",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645679054623,
+        "stop" : 1645679064658,
+        "duration" : 10035
       },
       "flaky" : false,
       "newFailed" : false,
@@ -651,7 +226,245 @@
       "parameters" : [ "chrome-98.0.4758.102" ]
     }, {
       "name" : "Verify text present- in herokuapp page.",
-      "uid" : "2505e3196851f374",
+      "uid" : "366da1b04a2d802b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645199265146,
+        "stop" : 1645199265812,
+        "duration" : 666
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "verify Item Price in Your Cart page.",
+      "uid" : "588221d3ac9aa215",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645679152161,
+        "stop" : 1645679162195,
+        "duration" : 10034
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "9bcc6f583a0d7738",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645200033298,
+        "stop" : 1645200043710,
+        "duration" : 10412
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify Login is suucessful for saucedemo application.",
+      "uid" : "6abf1c5c96f50fe6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645643642453,
+        "stop" : 1645643642466,
+        "duration" : 13
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "verify Item Price in Your Cart page.",
+      "uid" : "4472e73f1ec845e4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645643662630,
+        "stop" : 1645643672662,
+        "duration" : 10032
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify saucedemo Login page is displayed",
+      "uid" : "433a8abf4b6fc471",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645643642013,
+        "stop" : 1645643642452,
+        "duration" : 439
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Add Item to Cart and very Qty added in shopping Cart Icon",
+      "uid" : "2fba06e9c178162d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645683013352,
+        "stop" : 1645683023394,
+        "duration" : 10042
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify Login is suucessful for saucedemo application.",
+      "uid" : "b5f69a45b0b7c4a1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645684260393,
+        "stop" : 1645684263520,
+        "duration" : 3127
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Add Item to Cart and very Qty added in shopping Cart Icon",
+      "uid" : "b13390b388d4d1e2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645679054349,
+        "stop" : 1645679054511,
+        "duration" : 162
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Add Item to Cart and very Qty added in shopping Cart Icon",
+      "uid" : "41fcebb56058c9d7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645683198679,
+        "stop" : 1645683198890,
+        "duration" : 211
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Click shopping Cart Icon and verify the page tile.",
+      "uid" : "9202a6e1a3f935f3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645683023394,
+        "stop" : 1645683033431,
+        "duration" : 10037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Add Item to Cart and very Qty added in shopping Cart Icon",
+      "uid" : "d6707a91f243c61d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645643996600,
+        "stop" : 1645644006623,
+        "duration" : 10023
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify Login is suucessful for saucedemo application.",
+      "uid" : "a97fd2d0eeb183e0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645643936581,
+        "stop" : 1645643996599,
+        "duration" : 60018
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "21b33da7fe29e0bb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645199254499,
+        "stop" : 1645199265119,
+        "duration" : 10620
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "39620be15e67f3ad",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
@@ -668,7 +481,75 @@
       "parameters" : [ "chrome-98.0.4758.102" ]
     }, {
       "name" : "Verify text present- in herokuapp page.",
-      "uid" : "8a65eaf202945c10",
+      "uid" : "6b5bded9328d7ee6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645604306595,
+        "stop" : 1645604312975,
+        "duration" : 6380
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify Login is suucessful for saucedemo application.",
+      "uid" : "c32610cb0ff2622d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645678936986,
+        "stop" : 1645678950187,
+        "duration" : 13201
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Add Item to Cart and very Qty added in shopping Cart Icon",
+      "uid" : "ed9dd40c40c5d572",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645678950187,
+        "stop" : 1645678950284,
+        "duration" : 97
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "703c707204e7fcad",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645199378923,
+        "stop" : 1645199389425,
+        "duration" : 10502
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "61f354b76a7983ac",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -685,7 +566,670 @@
       "parameters" : [ "chrome-98.0.4758.102" ]
     }, {
       "name" : "Verify text present- in herokuapp page.",
-      "uid" : "1c4b941a148fae61",
+      "uid" : "6bccf03d6bbfd0de",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645199932229,
+        "stop" : 1645199938748,
+        "duration" : 6519
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "b7a5d6b34ad4db0c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645199922346,
+        "stop" : 1645199932213,
+        "duration" : 9867
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify saucedemo Login page is displayed",
+      "uid" : "1d2d3814ff638f50",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645643936085,
+        "stop" : 1645643936581,
+        "duration" : 496
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "5c88096ba7e76ade",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645199115946,
+        "stop" : 1645199116301,
+        "duration" : 355
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify Login is suucessful for saucedemo application.",
+      "uid" : "fadb81f322037f82",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645683196860,
+        "stop" : 1645683198679,
+        "duration" : 1819
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "12209c5e2308cfa",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645604406222,
+        "stop" : 1645604415523,
+        "duration" : 9301
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify Login functionality for herokuapp page.",
+      "uid" : "788cd47f85fff77b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645188311282,
+        "stop" : 1645188319230,
+        "duration" : 7948
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "7e7e4c13981b927e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645599458783,
+        "stop" : 1645599468461,
+        "duration" : 9678
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify saucedemo Login page is displayed",
+      "uid" : "9a8491b94fb542a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645679050190,
+        "stop" : 1645679051030,
+        "duration" : 840
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "8069a02cf1ffeb1a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645604663242,
+        "stop" : 1645604669688,
+        "duration" : 6446
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "33d636f1148fc771",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645199389445,
+        "stop" : 1645199395893,
+        "duration" : 6448
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify saucedemo Login page is displayed",
+      "uid" : "62199263dbca5cf0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645682951993,
+        "stop" : 1645682953332,
+        "duration" : 1339
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify saucedemo Login page is displayed",
+      "uid" : "f1d01a5972cf5ca3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645677983792,
+        "stop" : 1645677988224,
+        "duration" : 4432
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "9061ef282fb34602",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645604109664,
+        "stop" : 1645604169673,
+        "duration" : 60009
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Click shopping Cart Icon and verify the page tile.",
+      "uid" : "afa0669f136d2828",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645679152029,
+        "stop" : 1645679152161,
+        "duration" : 132
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "verify Item Price in Your Cart page.",
+      "uid" : "5f1889ca8acc3120",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645678007590,
+        "stop" : 1645678017619,
+        "duration" : 10029
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Click shopping Cart Icon and verify the page tile.",
+      "uid" : "b0cdf07732f6f8ae",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645644006624,
+        "stop" : 1645644016668,
+        "duration" : 10044
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Add Item to Cart and very Qty added in shopping Cart Icon",
+      "uid" : "a263c5d5369f6f42",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645679151901,
+        "stop" : 1645679152029,
+        "duration" : 128
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Click shopping Cart Icon and verify the page tile.",
+      "uid" : "82f5893332b04de6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645679054511,
+        "stop" : 1645679054622,
+        "duration" : 111
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify Login is suucessful for saucedemo application.",
+      "uid" : "55fb9324c50783c8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645679149638,
+        "stop" : 1645679151901,
+        "duration" : 2263
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "fb388704ff93cd98",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645604599394,
+        "stop" : 1645604608731,
+        "duration" : 9337
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "d183e7c04dd1782c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645604207902,
+        "stop" : 1645604217188,
+        "duration" : 9286
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "2c76f38d5936136",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645200043736,
+        "stop" : 1645200050237,
+        "duration" : 6501
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify Login functionality for herokuapp page.",
+      "uid" : "b1f8d7f8fb4f1abf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645188585633,
+        "stop" : 1645188593510,
+        "duration" : 7877
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify Login functionality for herokuapp page.",
+      "uid" : "96653f418b302baa",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645189261847,
+        "stop" : 1645189270177,
+        "duration" : 8330
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Click shopping Cart Icon and verify the page tile.",
+      "uid" : "56d2d5e0e1367b82",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645684263835,
+        "stop" : 1645684264314,
+        "duration" : 479
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify Login functionality for herokuapp page.",
+      "uid" : "1fb36ee2d3f8113c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645628679196,
+        "stop" : 1645628687627,
+        "duration" : 8431
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 6,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify Login is suucessful for saucedemo application.",
+      "uid" : "b7cb23c9ae6816bf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645677988226,
+        "stop" : 1645678007394,
+        "duration" : 19168
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Click shopping Cart Icon and verify the page tile.",
+      "uid" : "d23b17f3c887ed83",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645678007511,
+        "stop" : 1645678007590,
+        "duration" : 79
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify Login functionality for herokuapp page.",
+      "uid" : "711053cde3cdc6c8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645189013697,
+        "stop" : 1645189022254,
+        "duration" : 8557
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify saucedemo Login page is displayed",
+      "uid" : "a48152bc84057a1a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645679148340,
+        "stop" : 1645679149637,
+        "duration" : 1297
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "e431ffb1d2b505c9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645604373598,
+        "stop" : 1645604379982,
+        "duration" : 6384
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "e4069b84e2858514",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645199991294,
+        "stop" : 1645199998023,
+        "duration" : 6729
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "3a2719ab282504ef",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645199517972,
+        "stop" : 1645199524632,
+        "duration" : 6660
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "4b5fd0f5104434e3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645603835705,
+        "stop" : 1645603842106,
+        "duration" : 6401
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "verify Item Price in Your Cart page.",
+      "uid" : "4ee0b6211c75eebf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645684264315,
+        "stop" : 1645684264422,
+        "duration" : 107
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "451a3540a46fe7d2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645604521604,
+        "stop" : 1645604532925,
+        "duration" : 11321
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Add Item to Cart and very Qty added in shopping Cart Icon",
+      "uid" : "932ae8cd4f58e6d6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645684263520,
+        "stop" : 1645684263834,
+        "duration" : 314
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Click shopping Cart Icon and verify the page tile.",
+      "uid" : "91f3aaa0d6f2796e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645643652598,
+        "stop" : 1645643662630,
+        "duration" : 10032
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "16c0d12dcc26acb5",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -702,7 +1246,75 @@
       "parameters" : [ "chrome-98.0.4758.102" ]
     }, {
       "name" : "Verify text present- in herokuapp page.",
-      "uid" : "3a64e19f3305cfe3",
+      "uid" : "3c1d423acae13a3d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645605166739,
+        "stop" : 1645605175741,
+        "duration" : 9002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "669071463d1b6dd8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645604217216,
+        "stop" : 1645604223626,
+        "duration" : 6410
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "1c4a1d9c38c22a55",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645605175755,
+        "stop" : 1645605181121,
+        "duration" : 5366
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "c7572f3582bda7d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645604037097,
+        "stop" : 1645604043504,
+        "duration" : 6407
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "6058d02871b98130",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
@@ -717,7 +1329,266 @@
       "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "fc2eff7f61accae9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645604364341,
+        "stop" : 1645604373574,
+        "duration" : 9233
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify Login functionality for herokuapp page.",
+      "uid" : "77f3a297b60ed852",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645189699123,
+        "stop" : 1645189706814,
+        "duration" : 7691
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Click shopping Cart Icon and verify the page tile.",
+      "uid" : "6154f800fbe3503a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645678950285,
+        "stop" : 1645678950340,
+        "duration" : 55
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "verify Item Price in Your Cart page.",
+      "uid" : "1bff78527b87f9b5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645678950341,
+        "stop" : 1645678960370,
+        "duration" : 10029
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify Login is suucessful for saucedemo application.",
+      "uid" : "245e5fb0573eb723",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645679051031,
+        "stop" : 1645679054349,
+        "duration" : 3318
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "3eaff259eae87917",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645604608748,
+        "stop" : 1645604615180,
+        "duration" : 6432
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "4b67dbe8c88a004e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645199981089,
+        "stop" : 1645199991283,
+        "duration" : 10194
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "f13ac985560258c4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645604027996,
+        "stop" : 1645604037064,
+        "duration" : 9068
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify saucedemo Login page is displayed",
+      "uid" : "306bfe222936b5e0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645683195500,
+        "stop" : 1645683196859,
+        "duration" : 1359
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "verify Item Price in Your Cart page.",
+      "uid" : "2a0f024c7525ebda",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645683033431,
+        "stop" : 1645683043468,
+        "duration" : 10037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "8971b1cd325c3ae5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645199508215,
+        "stop" : 1645199517950,
+        "duration" : 9735
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify Login is suucessful for saucedemo application.",
+      "uid" : "dbd60f347348a42d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645682953332,
+        "stop" : 1645683013352,
+        "duration" : 60020
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "5260298c005169e0",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645621658959,
+        "stop" : 1645621668383,
+        "duration" : 9424
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "f371caf8bcb00abd",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645628679249,
+        "stop" : 1645628689088,
+        "duration" : 9839
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 20,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Verify text present- in herokuapp page.",
+      "uid" : "899014b637fdd3bf",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645628689114,
+        "stop" : 1645628695787,
+        "duration" : 6673
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 19,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
   } ]
 }

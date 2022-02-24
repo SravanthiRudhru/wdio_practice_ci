@@ -1,0 +1,192 @@
+{
+  "uid" : "4ee0b6211c75eebf",
+  "name" : "verify Item Price in Your Cart page.",
+  "fullName" : "Login to saucedemo application.verify Item Price in Your Cart page.",
+  "historyId" : "a22e6748819bba38da850ce25fbeda1",
+  "time" : {
+    "start" : 1645684264315,
+    "stop" : 1645684264422,
+    "duration" : 107
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 8,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1645684264315,
+        "stop" : 1645684264362,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1762f4f7bc38ddbb",
+        "name" : "Request",
+        "source" : "1762f4f7bc38ddbb.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "7d13c9bdc3a960b6",
+        "name" : "Response",
+        "source" : "7d13c9bdc3a960b6.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/c3b3af0d-86ab-4102-832a-7b76e4e7b093/text",
+      "time" : {
+        "start" : 1645684264367,
+        "stop" : 1645684264422,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c79967623e8aad13",
+        "name" : "Response",
+        "source" : "c79967623e8aad13.json",
+        "type" : "application/json",
+        "size" : 7
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login to saucedemo application"
+  }, {
+    "name" : "testClass",
+    "value" : "Login to saucedemo application"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify Item Price in Your Cart page."
+  }, {
+    "name" : "package",
+    "value" : "Login to saucedemo application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ba3db33f6f6ea56",
+      "status" : "broken",
+      "statusDetails" : "Can't call previousElement on element with selector \"#add-to-cart-sauce-labs-bike-light\" because element wasn't found",
+      "time" : {
+        "start" : 1645683199076,
+        "stop" : 1645683209121,
+        "duration" : 10045
+      }
+    }, {
+      "uid" : "2a0f024c7525ebda",
+      "status" : "broken",
+      "statusDetails" : "Can't call previousElement on element with selector \"#add-to-cart-sauce-labs-bike-light\" because element wasn't found",
+      "time" : {
+        "start" : 1645683033431,
+        "stop" : 1645683043468,
+        "duration" : 10037
+      }
+    }, {
+      "uid" : "588221d3ac9aa215",
+      "status" : "broken",
+      "statusDetails" : "Can't call previousElement on element with selector \"#add-to-cart-sauce-labs-bike-light\" because element wasn't found",
+      "time" : {
+        "start" : 1645679152161,
+        "stop" : 1645679162195,
+        "duration" : 10034
+      }
+    }, {
+      "uid" : "ec739c2d1ad05b11",
+      "status" : "broken",
+      "statusDetails" : "Can't call previousElement on element with selector \"#add-to-cart-sauce-labs-bike-light\" because element wasn't found",
+      "time" : {
+        "start" : 1645679054623,
+        "stop" : 1645679064658,
+        "duration" : 10035
+      }
+    }, {
+      "uid" : "1bff78527b87f9b5",
+      "status" : "broken",
+      "statusDetails" : "Can't call previousElement on element with selector \"#add-to-cart-sauce-labs-bike-light\" because element wasn't found",
+      "time" : {
+        "start" : 1645678950341,
+        "stop" : 1645678960370,
+        "duration" : 10029
+      }
+    }, {
+      "uid" : "5f1889ca8acc3120",
+      "status" : "broken",
+      "statusDetails" : "Can't call previousElement on element with selector \"#add-to-cart-sauce-labs-bike-light\" because element wasn't found",
+      "time" : {
+        "start" : 1645678007590,
+        "stop" : 1645678017619,
+        "duration" : 10029
+      }
+    }, {
+      "uid" : "31d67bcb3b644fb1",
+      "status" : "broken",
+      "statusDetails" : "Can't call previousElement on element with selector \"#add-to-cart-sauce-labs-bike-light\" because element wasn't found",
+      "time" : {
+        "start" : 1645644016669,
+        "stop" : 1645644026703,
+        "duration" : 10034
+      }
+    }, {
+      "uid" : "4472e73f1ec845e4",
+      "status" : "broken",
+      "statusDetails" : "Can't call previousElement on element with selector \"#add-to-cart-sauce-labs-bike-light\" because element wasn't found",
+      "time" : {
+        "start" : 1645643662630,
+        "stop" : 1645643672662,
+        "duration" : 10032
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4ee0b6211c75eebf.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

@@ -1,0 +1,160 @@
+{
+  "uid" : "743e965f9fe4539b",
+  "name" : "Add Item to Cart and very Qty added in shopping Cart Icon",
+  "fullName" : "Login to saucedemo application.Add Item to Cart and very Qty added in shopping Cart Icon",
+  "historyId" : "6c133da57bfd2fbae8404a551a9a49f0",
+  "time" : {
+    "start" : 1645678007394,
+    "stop" : 1645678007511,
+    "duration" : 117
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1645678007395,
+        "stop" : 1645678007414,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7030b801d8b54729",
+        "name" : "Request",
+        "source" : "7030b801d8b54729.json",
+        "type" : "application/json",
+        "size" : 78
+      }, {
+        "uid" : "c719101c64be626b",
+        "name" : "Response",
+        "source" : "c719101c64be626b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/4c1b6808-6844-4e7c-9d3d-634dd74d9f4a/click",
+      "time" : {
+        "start" : 1645678007417,
+        "stop" : 1645678007463,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1645678007464,
+        "stop" : 1645678007488,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "657cb892b1b5fc22",
+        "name" : "Request",
+        "source" : "657cb892b1b5fc22.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "434fc02a1b9c4516",
+        "name" : "Response",
+        "source" : "434fc02a1b9c4516.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/8060e017-79cc-4aa9-884c-1f1171a5b468/text",
+      "time" : {
+        "start" : 1645678007490,
+        "stop" : 1645678007511,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "10c18806e2ffaa51",
+        "name" : "Response",
+        "source" : "10c18806e2ffaa51.json",
+        "type" : "application/json",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login to saucedemo application"
+  }, {
+    "name" : "testClass",
+    "value" : "Login to saucedemo application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add Item to Cart and very Qty added in shopping Cart Icon"
+  }, {
+    "name" : "package",
+    "value" : "Login to saucedemo application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "743e965f9fe4539b.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

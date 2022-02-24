@@ -1,0 +1,229 @@
+{
+  "uid" : "932ae8cd4f58e6d6",
+  "name" : "Add Item to Cart and very Qty added in shopping Cart Icon",
+  "fullName" : "Login to saucedemo application.Add Item to Cart and very Qty added in shopping Cart Icon",
+  "historyId" : "6c133da57bfd2fbae8404a551a9a49f0",
+  "time" : {
+    "start" : 1645684263520,
+    "stop" : 1645684263834,
+    "duration" : 314
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 8,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1645684263521,
+        "stop" : 1645684263565,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6a7d8bf5f88a7ec8",
+        "name" : "Request",
+        "source" : "6a7d8bf5f88a7ec8.json",
+        "type" : "application/json",
+        "size" : 78
+      }, {
+        "uid" : "5006e4a20f6f1721",
+        "name" : "Response",
+        "source" : "5006e4a20f6f1721.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/ccf0be3d-d9b7-4e05-8981-cf24d2fe5e7f/click",
+      "time" : {
+        "start" : 1645684263569,
+        "stop" : 1645684263683,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1645684263684,
+        "stop" : 1645684263734,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7bc2b3bc60e2403d",
+        "name" : "Request",
+        "source" : "7bc2b3bc60e2403d.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "a88c08d93c9dac51",
+        "name" : "Response",
+        "source" : "a88c08d93c9dac51.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/8a0aab33-e203-49f9-bcbf-858360ad1a8e/text",
+      "time" : {
+        "start" : 1645684263739,
+        "stop" : 1645684263833,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7008257c00710f2",
+        "name" : "Response",
+        "source" : "7008257c00710f2.json",
+        "type" : "application/json",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login to saucedemo application"
+  }, {
+    "name" : "testClass",
+    "value" : "Login to saucedemo application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add Item to Cart and very Qty added in shopping Cart Icon"
+  }, {
+    "name" : "package",
+    "value" : "Login to saucedemo application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "41fcebb56058c9d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645683198679,
+        "stop" : 1645683198890,
+        "duration" : 211
+      }
+    }, {
+      "uid" : "2fba06e9c178162d",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"#add-to-cart-sauce-labs-bike-light\" because element wasn't found",
+      "time" : {
+        "start" : 1645683013352,
+        "stop" : 1645683023394,
+        "duration" : 10042
+      }
+    }, {
+      "uid" : "a263c5d5369f6f42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645679151901,
+        "stop" : 1645679152029,
+        "duration" : 128
+      }
+    }, {
+      "uid" : "b13390b388d4d1e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645679054349,
+        "stop" : 1645679054511,
+        "duration" : 162
+      }
+    }, {
+      "uid" : "ed9dd40c40c5d572",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645678950187,
+        "stop" : 1645678950284,
+        "duration" : 97
+      }
+    }, {
+      "uid" : "743e965f9fe4539b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645678007394,
+        "stop" : 1645678007511,
+        "duration" : 117
+      }
+    }, {
+      "uid" : "d6707a91f243c61d",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"#add-to-cart-sauce-labs-bike-light\" because element wasn't found",
+      "time" : {
+        "start" : 1645643996600,
+        "stop" : 1645644006623,
+        "duration" : 10023
+      }
+    }, {
+      "uid" : "7c8404b1df325ad7",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"#add-to-cart-sauce-labs-bike-light\" because element wasn't found",
+      "time" : {
+        "start" : 1645643642469,
+        "stop" : 1645643652598,
+        "duration" : 10129
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "932ae8cd4f58e6d6.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

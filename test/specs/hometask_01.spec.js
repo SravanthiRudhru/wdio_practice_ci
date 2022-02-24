@@ -1,5 +1,5 @@
 describe('Login functionality for herokuapp page.',async function(){
-    it('Verify Login functionality for herokuapp page.',async function(){
+    it.skip('Verify Header information.',async function(){
         //Launch herokuapp URL.
        await browser.url('https://the-internet.herokuapp.com/login');
 
@@ -15,7 +15,14 @@ describe('Login functionality for herokuapp page.',async function(){
 
        //Print Sub Header text:
        console.log('Sub Header text: '+await $('.subheader').getText());
+    })
 
+    it('Verify Login functionality for herokuapp page.',async function(){
+          //Launch herokuapp URL.
+       await browser.url('https://the-internet.herokuapp.com/login');
+
+       //Wait for application to load.
+       await browser.pause(3000);
        //Enter UserName:
        await $('#username').setValue('tomsmith');
 

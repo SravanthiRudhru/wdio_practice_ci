@@ -1,6 +1,17 @@
 {
-  "total" : 3,
+  "total" : 4,
   "items" : [ {
+    "uid" : "fa8c16607cd3da217c627ab5b06aeea6",
+    "name" : "Login to saucedemo application",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
     "uid" : "d9359b2cad8de0d18233aacc78feb536",
     "name" : "Login functionality for herokuapp page.",
     "statistic" : {

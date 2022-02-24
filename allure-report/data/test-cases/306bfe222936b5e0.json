@@ -1,0 +1,199 @@
+{
+  "uid" : "306bfe222936b5e0",
+  "name" : "Verify saucedemo Login page is displayed",
+  "fullName" : "Login to saucedemo application.Verify saucedemo Login page is displayed",
+  "historyId" : "10598fa90124c350dc49d9efe4fb156a",
+  "time" : {
+    "start" : 1645683195500,
+    "stop" : 1645683196859,
+    "duration" : 1359
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1645683195505,
+        "stop" : 1645683196647,
+        "duration" : 1142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1394d4f0de755f25",
+        "name" : "Request",
+        "source" : "1394d4f0de755f25.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1645683196651,
+        "stop" : 1645683196708,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "95ee9ab2e3b6643e",
+        "name" : "Request",
+        "source" : "95ee9ab2e3b6643e.json",
+        "type" : "application/json",
+        "size" : 55
+      }, {
+        "uid" : "2d9f4135635ff552",
+        "name" : "Response",
+        "source" : "2d9f4135635ff552.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1645683196723,
+        "stop" : 1645683196770,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "466e4f0d41e91e13",
+        "name" : "Request",
+        "source" : "466e4f0d41e91e13.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "7ee8700a3a71b6fd",
+        "name" : "Response",
+        "source" : "7ee8700a3a71b6fd.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1645683196772,
+        "stop" : 1645683196811,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f156f1cd8272d28e",
+        "name" : "Request",
+        "source" : "f156f1cd8272d28e.json",
+        "type" : "application/json",
+        "size" : 55
+      }, {
+        "uid" : "9ba6140d851c2172",
+        "name" : "Response",
+        "source" : "9ba6140d851c2172.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1645683196819,
+        "stop" : 1645683196857,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d1c5235e116523b",
+        "name" : "Request",
+        "source" : "d1c5235e116523b.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "9a8982e0c124955f",
+        "name" : "Response",
+        "source" : "9a8982e0c124955f.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 9,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login to saucedemo application"
+  }, {
+    "name" : "testClass",
+    "value" : "Login to saucedemo application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify saucedemo Login page is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Login to saucedemo application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "306bfe222936b5e0.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}
