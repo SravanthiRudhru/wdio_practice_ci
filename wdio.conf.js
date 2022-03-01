@@ -26,7 +26,9 @@ exports.config = {
 
     //To Execute all test scripts
     specs: [
-        './test/specs/**/*.js'
+        './test/specs/hometask_01.spec.js',
+        './test/specs/hometask_02.spec.js',
+        './test/specs/hometask_03.spec.js'
     ],
 
     //To Execute Test scripts grouped into suites:
