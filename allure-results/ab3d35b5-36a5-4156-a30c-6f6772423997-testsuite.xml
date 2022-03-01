@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646121739316' stop='1646121761925'>
+    <name>Login functionality for herokuapp page.</name>
+    <title>Login functionality for herokuapp page.</title>
+    <test-cases>
+        <test-case start='1646121739317' status='passed' stop='1646121761924'>
+            <name>Verify Login functionality for herokuapp page.</name>
+            <title>Verify Login functionality for herokuapp page.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+            </parameters>
+            <steps>
+                <step start='1646121739325' status='passed' stop='1646121751924'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='0f0c5d81-9533-45b8-96df-807a1d06b172-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
